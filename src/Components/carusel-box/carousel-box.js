@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
+//: Будет время отрефакторю в itemListImg $$ ItemImgInfo а пока так грубо
+
 import forestBridge from '../../assets/forest-bridge.jpg'
 import forestFog from '../../assets/forest-fog.jpg'
 import forestRed from '../../assets/forest-red.jpg'
@@ -17,7 +19,7 @@ class CarouselBox extends Component {
               src={forestGreen}
               alt='img forest'/>
             <Carousel.Caption>
-              <h3>forestGreen image</h3>
+              <h3>forestGreen image 4k</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, obcaecati!</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -28,7 +30,7 @@ class CarouselBox extends Component {
               src={forestMountain}
               alt='img forest'/>
             <Carousel.Caption>
-              <h3>forestMountain image</h3>
+              <h3>forestMountain image 4k</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, obcaecati!</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -39,7 +41,7 @@ class CarouselBox extends Component {
               src={forestBridge}
               alt='img forest'/>
             <Carousel.Caption>
-              <h3>forestBridge image</h3>
+              <h3>forestBridge image 4k</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, obcaecati!</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -50,7 +52,7 @@ class CarouselBox extends Component {
               src={forestFog}
               alt='img forest'/>
             <Carousel.Caption>
-              <h3>forestFog image</h3>
+              <h3>forestFog image 4k</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, obcaecati!</p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -61,7 +63,7 @@ class CarouselBox extends Component {
               src={forestRed}
               alt='img forest'/>
             <Carousel.Caption>
-              <h3>forestRed image</h3>
+              <h3>forestRed image 4k</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, obcaecati!</p>
             </Carousel.Caption>
           </Carousel.Item>
