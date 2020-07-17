@@ -1,15 +1,15 @@
-import React from 'react';
-import './App.css';
-import {Button} from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import "./App.css";
+import { Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Components/header/header";
 
 function App() {
   return (
     <>
-      <h1>Privet</h1>
-      <Button variant="primary">Button</Button>
+      <Header />
     </>
-  )
+  );
 }
 
-      export default App;
+export default App;
