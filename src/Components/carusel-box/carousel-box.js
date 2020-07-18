@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 //: Будет время отрефакторю в itemListImg $$ ItemImgInfo а пока так грубо
 
-import forestBridge from '../../assets/forest-bridge.jpg'
-import forestFog from '../../assets/forest-fog.jpg'
-import forestRed from '../../assets/forest-red.jpg'
-import forestGreen from '../../assets/forest-green.jpg'
-import forestMountain from '../../assets/forest-mountain.jpg'
+import forestBridge from '../../assets/forest/forest-bridge.jpg'
+import forestFog from '../../assets/forest/forest-fog.jpg'
+import forestRed from '../../assets/forest/forest-red.jpg'
+import forestGreen from '../../assets/forest/forest-green.jpg'
+import forestMountain from '../../assets/forest/forest-mountain.jpg'
 
 class CarouselBox extends Component {
   render() {

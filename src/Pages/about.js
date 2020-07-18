@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Col, Container, Nav, Row, Tab} from 'react-bootstrap';
-import reduxSagaImg from '../../src/assets/react-redux.gif';
+import reduxSagaImg from '../../src/assets/about/react-redux.gif';
 
 
 class About extends Component {
