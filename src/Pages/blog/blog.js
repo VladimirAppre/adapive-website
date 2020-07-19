@@ -68,7 +68,7 @@ class Blog extends Component {
             </Media>
           </Col>
           <Col md='3'>
-            <h5 className='text-center mt-5 blogContainer'>Категории</h5>
+            <h5 className='text-center mt-5'>Категории</h5>
             <Card>
               <ListGroup variant='flush'>
                 <ListGroup.Item>HTML/CSS</ListGroup.Item>

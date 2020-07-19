@@ -1,0 +1,9 @@
+.cardImg {
+    padding-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .cardContainer {
+        margin: 0px !important;
+    }
+}

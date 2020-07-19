@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import CarouselBox from "../Components/carusel-box/carousel-box";
 import {Button, Card, Container} from "react-bootstrap";
 import './home.css'
+import CarouselBox from "../../Components/carusel-box/carousel-box";
 
 class Home extends Component {
   render() {
@@ -10,7 +10,7 @@ class Home extends Component {
         <CarouselBox/>
         <Container>
           <h2 className='text-center m-4'>Наша команда</h2>
-          <div className='pt-2 row m-4'>
+          <div className='pt-2 row m-4 cardContainer'>
 
             <div className="col-md-6 col-xl-4 mt-3">
               <Card
