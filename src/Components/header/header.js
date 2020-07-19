@@ -1,24 +1,24 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {Button, Container, Form, FormControl, Nav, Navbar} from "react-bootstrap";
 import {Link} from 'react-router-dom';
 
 import './header.css';
 import logo from './logo192.png'
 
-class Header extends Component {
-  render() {
-    return (
-      <>
-        <Navbar collapseOnSelect expand='md' bg='dark' variant='dark' className='navBar'>
-          <Container>
-            <Navbar.Brand href='/'>
-              <img
-                src={logo}
-                className='d-inline-block align-top logo'
-                alt='logo'
-              />React
-            </Navbar.Brand>
-            <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
+const Header = () => {
+
+  return (
+    <>
+      <Navbar collapseOnSelect expand='md' bg='dark' variant='dark' className='navBar'>
+        <Container>
+          <Navbar.Brand href='/'>
+            <img
+              src={logo}
+              className='d-inline-block align-top logo'
+              alt='logo'
+            />Adaptive
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
             <Navbar.Collapse id='responsive-navbar-nav'>
               <Nav className='mr-auto'>
                 <Link to='/' className='nav-link'>Домой</Link>
@@ -35,12 +35,12 @@ class Header extends Component {
                 <Button variant="outline-info">Поиск</Button>
               </Form>
             </Navbar.Collapse>
-          </Container>
-        </Navbar>
+        </Container>
+      </Navbar>
 
-      </>
-    );
-  }
+    </>
+  );
 }
+
 
 export default Header;

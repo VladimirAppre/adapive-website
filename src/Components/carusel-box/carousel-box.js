@@ -1,56 +1,57 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-//: Будет время отрефакторю в itemListImg $$ ItemImgInfo а пока так грубо
-
 import './carousel-box.css'
 import forestBridge from '../../assets/forest/forest-bridge.jpg'
 import forestFog from '../../assets/forest/forest-fog.jpg'
 import forestRed from '../../assets/forest/forest-red.jpg'
 import forestGreen from '../../assets/forest/forest-green.jpg'
 import forestMountain from '../../assets/forest/forest-mountain.jpg'
+//: Будет время отрефакторю в itemListImg $$ ItemImgInfo а пока так грубо
 
-class CarouselBox extends Component {
-  render() {
-    return (
-      <div>
-        <Carousel>
-          <Carousel.Item>
-            <img
-              className='d-block w-100'
-              src={forestGreen}
-              alt='img forest'/>
-            <Carousel.Caption>
-              <h3 className='titleImage'>Зеленый лес, 4k</h3>
-              <p className='textImage'>Какое-то описание изображения, мы воспользуемся Lorem ipsum dolor sit amet, consectetur!</p>
-            </Carousel.Caption>
-          </Carousel.Item>
+const CarouselBox = () => {
+  return (
+    <div>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className='d-block w-100'
+            src={forestGreen}
+            alt='img forest'/>
+          <Carousel.Caption>
+            <h3 className='titleImage'>Зеленый лес, 4k</h3>
+            <p className='textImage'>Какое-то описание изображения, мы воспользуемся Lorem ipsum dolor sit amet,
+              consectetur!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className='d-block w-100'
-              src={forestMountain}
-              alt='img forest'/>
-            <Carousel.Caption>
-              <h3 className='titleImage'>Лес, горы, 4k</h3>
-              <p className='textImage'>Какое-то описание изображения, мы воспользуемся Lorem ipsum dolor sit amet, consectetur!</p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className='d-block w-100'
+            src={forestMountain}
+            alt='img forest'/>
+          <Carousel.Caption>
+            <h3 className='titleImage'>Лес, горы, 4k</h3>
+            <p className='textImage'>Какое-то описание изображения, мы воспользуемся Lorem ipsum dolor sit amet,
+              consectetur!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className='d-block w-100'
-              src={forestBridge}
-              alt='img forest'/>
-            <Carousel.Caption>
-              <h3 className='titleImage'>Лес и красивый мост, 4k</h3>
-              <p className='textImage'>Какое-то описание изображения, мы воспользуемся Lorem ipsum dolor sit amet, consectetur!</p>
-            </Carousel.Caption>
-          </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className='d-block w-100'
+            src={forestBridge}
+            alt='img forest'/>
+          <Carousel.Caption>
+            <h3 className='titleImage'>Лес и красивый мост, 4k</h3>
+            <p className='textImage'>Какое-то описание изображения, мы воспользуемся Lorem ipsum dolor sit amet,
+              consectetur!</p>
+          </Carousel.Caption>
+        </Carousel.Item>
 
-          <Carousel.Item>
-            <img
-              className='d-block w-100'
-              src={forestFog}
+        <Carousel.Item>
+          <img
+            className='d-block w-100'
+            src={forestFog}
               alt='img forest'/>
             <Carousel.Caption>
               <h3 className='titleImage'>Лес и туман, 4k</h3>
@@ -71,7 +72,6 @@ class CarouselBox extends Component {
         </Carousel>
       </div>
     );
-  }
 }
 
 export default CarouselBox;
