@@ -33,7 +33,7 @@ class Header extends Component {
                 <FormControl
                   type='text'
                   placeholder='Поиск'
-                  className="mr-sm-2"
+                  className="mr-sm-2 headFormControl"
                 />
                 <Button variant="outline-info">Поиск</Button>
               </Form>

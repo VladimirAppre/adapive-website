@@ -1,0 +1,15 @@
+.blogImg {
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 576px) {
+    .blogImg {
+        width: 120px;
+        height: 120px;
+    }
+
+    .blogContainer {
+        margin: 20px !important;
+    }
+}

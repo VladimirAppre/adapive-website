@@ -5,7 +5,7 @@ class Contacts extends Component {
   render() {
     return (
       <>
-        <Container style={{width: '500px'}}>
+        <Container style={{width: 'autho'}}>
           <h1 className='text-center'> Свяжитесь со мной!</h1>
           <Form>
             <Form.Group controlId='formBasicEmail'>

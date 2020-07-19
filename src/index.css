@@ -1,3 +1,9 @@
 body {
     min-width: 280px;
 }
+
+@media (max-width: 575px) {
+    .headFormControl {
+        margin-bottom: 10px;
+    }
+}

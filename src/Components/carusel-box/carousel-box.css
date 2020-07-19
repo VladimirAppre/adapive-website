@@ -1,0 +1,8 @@
+@media (max-width: 576px) {
+    .titleImage {
+        font-size: 14pt;
+    }
+    .textImage {
+        font-size: 10pt;
+    }
+}
