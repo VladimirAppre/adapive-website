@@ -76,7 +76,7 @@ const Home = () => {
                 <ModalComponent
                   text='какой-то интересный текст 3'
                   title='Will Find Team 2/2'
-                  buttonValue=' подробнее о команде'
+                  buttonValue='о команде'
                 />
               </Card.Body>
             </Card>
