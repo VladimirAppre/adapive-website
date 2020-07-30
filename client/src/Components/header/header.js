@@ -10,14 +10,8 @@ const Header = () => {
   const [label, setLabel] = useState('');
 
   const onLabelChange = (event) => {
-    const form = event.currentTarget;
     setLabel(event.target.value);
   };
-
-  const onQuery = (event) => {
-    console.log(label);
-    setLabel('');
-  }
 
   return (
     <>
