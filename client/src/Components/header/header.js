@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom';
 import './header.css';
 import logo from './logo192.png'
 import ModalComponent from "../modal";
+import SignInModalComponent from "../../Pages/signIn/signIn";
+
 
 const Header = () => {
   const [label, setLabel] = useState('');
@@ -31,6 +33,7 @@ const Header = () => {
               <Link to='/about' className='nav-link'>Инфо</Link>
               <Link to='/contacts' className='nav-link'>Контакты</Link>
               <Link to='/blog' className='nav-link'>Блог</Link>
+  <SignInModalComponent />
             </Nav>
             <Form
               inline>
